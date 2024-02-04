@@ -1,0 +1,29 @@
+@import "./variables.css";
+@import "./globals.css";
+@import "./plus-jakarta-sans.css";
+@import "./components.css";
+
+body {
+  font-family: var(--font-main);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  height: 100px;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-logo {
+  text-decoration: none;
+  font-weight: var(--fw-bold);
+  letter-spacing: 2px;
+  color: var(--dark-blue);
+}
+
+.nav-links-flex {
+  display: flex;
+  list-style: none;
+}

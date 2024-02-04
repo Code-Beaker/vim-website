@@ -1,0 +1,47 @@
+/**
+ * @license
+ *
+ * Font Family: Plus Jakarta Sans
+ * Designed by: Tokotype
+ * URL: https://www.fontshare.com/fonts/plus-jakarta-sans
+ * © 2024 Indian Type Foundry
+ *
+ * Font Styles:
+ * Plus Jakarta Sans Variable(Variable font)
+ * Plus Jakarta Sans Variable (Variable font)
+ * Plus Jakarta Sans Extra Light
+ * Plus Jakarta Sans Extra Light 
+ * Plus Jakarta Sans Light
+ * Plus Jakarta Sans Light 
+ * Plus Jakarta Sans Regular
+ * Plus Jakarta Sans 
+ * Plus Jakarta Sans Medium
+ * Plus Jakarta Sans Medium 
+ * Plus Jakarta Sans Semi Bold
+ * Plus Jakarta Sans Semi Bold 
+ * Plus Jakarta Sans Bold
+ * Plus Jakarta Sans Bold 
+ * Plus Jakarta Sans Extra Bold
+ * Plus Jakarta Sans Extra Bold 
+ *
+*/
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 400.0;
+*
+* available axes:
+
+* 'wght' (range from 200.0 to 800.0)
+
+*/
+
+@font-face {
+  font-family: "PlusJakartaSans-Variable";
+  src: url("../assets/fonts/PlusJakartaSans-Variable.woff2") format("woff2"),
+    url("../assets/fonts/PlusJakartaSans-Variable.woff") format("woff");
+  font-weight: 200 800;
+  font-display: swap;
+  font-style: normal;
+}

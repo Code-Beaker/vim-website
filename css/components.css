@@ -1,0 +1,46 @@
+button {
+  padding: 0.75rem 1.75rem;
+  border: none;
+  border-radius: 0.75rem;
+  display: inline-flex;
+  font-weight: var(--fw-semibold);
+  margin: 1rem;
+  cursor: pointer;
+  transition: var(--timing);
+}
+
+button:hover {
+  font-weight: var(--fw-medium);
+}
+
+.btn-blue {
+  background: var(--light-blue);
+}
+
+.btn-blue:hover {
+  /* color: var(--white); */
+  background: var(--dark-blue);
+}
+
+.btn-gray {
+  background: var(--light-gray);
+}
+
+.btn-gray:hover {
+  background: var(--dark-gray);
+}
+
+/* navigation link */
+.nav-link {
+  text-decoration: none;
+  margin: 1rem;
+  color: var(--black);
+  font-weight: var(--fw-medium);
+  padding: 0.75rem 1.5rem;
+  border-radius: 3rem;
+  transition: var(--timing);
+}
+
+.nav-link:hover {
+  background: var(--light-cyan);
+}
