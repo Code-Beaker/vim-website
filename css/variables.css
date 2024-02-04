@@ -22,10 +22,13 @@
   --cyan: #07f794;
   --light-blue: #009efa;
   --dark-blue: #008ccc;
+  --trans-blue: rgba(0, 158, 250, 0.125);
   --very-dark-blue: #03064e;
   --light-gray: #b2beb5;
   --dark-gray: #808080;
   --white: #fff;
   --black: #000;
+  --hover-gray: #404040;
+  --near-black: #101010;
   --light-cyan: #bffbff;
 }

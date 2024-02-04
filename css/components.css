@@ -1,46 +1,65 @@
 button {
   padding: 0.75rem 1.75rem;
   border: none;
-  border-radius: 0.75rem;
+  border-radius: 5rem;
   display: inline-flex;
-  font-weight: var(--fw-semibold);
+  font-weight: var(--fw-bold);
   margin: 1rem;
   cursor: pointer;
-  transition: var(--timing);
+  /* transition: var(--timing); */
 }
 
-button:hover {
+/* button:hover {
   font-weight: var(--fw-medium);
+} */
+
+.btn-black {
+  color: var(--white);
+  background: var(--black);
 }
 
-.btn-blue {
-  background: var(--light-blue);
-}
-
-.btn-blue:hover {
+.btn-black:hover {
   /* color: var(--white); */
-  background: var(--dark-blue);
+  background: var(--hover-gray);
 }
 
-.btn-gray {
-  background: var(--light-gray);
+.btn-trans {
+  color: var(--light-blue);
+  background: transparent;
 }
 
-.btn-gray:hover {
-  background: var(--dark-gray);
+.btn-trans:hover {
+  color: var(--light-blue);
+  background: var(--trans-blue);
 }
 
 /* navigation link */
 .nav-link {
   text-decoration: none;
+  display: block;
   margin: 1rem;
   color: var(--black);
-  font-weight: var(--fw-medium);
+  font-size: var(--text);
+  font-weight: var(--fw-semibold);
   padding: 0.75rem 1.5rem;
   border-radius: 3rem;
-  transition: var(--timing);
+  /* transition: var(--timing); */
+  transition: scale 100ms ease-in-out;
 }
 
 .nav-link:hover {
-  background: var(--light-cyan);
+  color: var(--white);
+  background: var(--black);
+}
+
+.nav-link:active {
+  scale: 0.965;
+}
+
+/* button container */
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
