@@ -1,3 +1,4 @@
+.btn,
 button {
   padding: 0.75rem 1.75rem;
   border: none;
@@ -5,13 +6,20 @@ button {
   display: inline-flex;
   font-weight: var(--fw-bold);
   margin: 1rem;
+  display: block;
+  text-decoration: none;
   cursor: pointer;
-  /* transition: var(--timing); */
+  transition: var(--timing);
 }
 
 /* button:hover {
   font-weight: var(--fw-medium);
 } */
+
+.btn,
+button:active {
+  scale: 0.975;
+}
 
 .btn-black {
   color: var(--white);
