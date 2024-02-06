@@ -92,6 +92,10 @@ h6 {
   font-size: var(--head-3);
 }
 
-.text {
+.big {
+  font-size: var(--big);
+}
+.text,
+.para {
   font-size: var(--text);
 }

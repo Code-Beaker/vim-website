@@ -15,10 +15,12 @@
   --head-1: 56px;
   --head-2: 48px;
   --head-3: 24px;
+  --big: 20px;
   --para: 16px;
   --text: 16px;
 
   --timing: 60ms ease-in-out;
+  --smoother: 350ms cubic-bezier(0.74, 0.01, 0.24, 1);
 
   --cyan: #07f794;
   --light-blue: #009efa;
