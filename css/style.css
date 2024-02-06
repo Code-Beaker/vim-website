@@ -29,3 +29,38 @@ body {
   align-items: center;
   list-style: none;
 }
+
+/* features */
+.flex-features {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+.feature-title {
+  font-weight: var(--fw-bolder);
+}
+
+.feature-body {
+  font-weight: var(--fw-medium);
+  font-size: 1.075rem;
+}
+
+.flex-features-item {
+  background: linear-gradient(45deg, var(--cyan), var(--light-blue));
+  color: var(--near-black);
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: left;
+  width: 400px;
+  height: auto;
+  cursor: pointer;
+  transition: var(--smoother);
+}
+
+.flex-features-item:hover {
+  width: 450px;
+  opacity: 80%;
+}
