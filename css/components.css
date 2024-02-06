@@ -45,17 +45,18 @@ button:active {
 .nav-link {
   text-decoration: none;
   display: block;
-  margin: 1rem;
+  margin: 0.25rem;
   color: var(--black);
   font-size: var(--text);
   font-weight: var(--fw-semibold);
   padding: 0.75rem 1.5rem;
   border-radius: 3rem;
-  /* transition: var(--timing); */
   transition: scale 100ms ease-in-out;
+  transition: var(--timing);
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.current-page {
   color: var(--white);
   background: var(--black);
 }

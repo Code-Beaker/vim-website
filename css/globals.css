@@ -73,6 +73,7 @@ h6 {
 }
 
 .title {
+  font-weight: var(--fw-extrabold);
   font-size: var(--title);
 }
 

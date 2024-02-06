@@ -26,5 +26,6 @@ body {
 
 .nav-links-flex {
   display: flex;
+  align-items: center;
   list-style: none;
 }

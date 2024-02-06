@@ -9,6 +9,7 @@
   --fw-semibold: 600;
   --fw-bold: 700;
   --fw-bolder: 800;
+  --fw-extrabold: 900;
 
   --title: 72px;
   --head-1: 56px;
@@ -17,13 +18,13 @@
   --para: 16px;
   --text: 16px;
 
-  --timing: 125ms ease-in-out;
+  --timing: 60ms ease-in-out;
 
   --cyan: #07f794;
   --light-blue: #009efa;
   --dark-blue: #008ccc;
   --trans-blue: rgba(0, 158, 250, 0.125);
-  --very-dark-blue: #03064e;
+  --very-dark-blue: #011d2e;
   --light-gray: #b2beb5;
   --dark-gray: #808080;
   --white: #fff;
