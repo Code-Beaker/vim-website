@@ -15,7 +15,7 @@
   --head-1: 56px;
   --head-2: 48px;
   --head-3: 24px;
-  --big: 20px;
+  --big: 22px;
   --para: 16px;
   --text: 16px;
 
@@ -23,6 +23,7 @@
   --smoother: 350ms cubic-bezier(0.74, 0.01, 0.24, 1);
 
   --cyan: #07f794;
+  --cyan-dk: #02e184;
   --light-blue: #009efa;
   --dark-blue: #008ccc;
   --trans-blue: rgba(0, 158, 250, 0.125);
