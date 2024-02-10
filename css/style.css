@@ -51,16 +51,20 @@ body {
 .flex-features-item {
   background: linear-gradient(45deg, var(--cyan), var(--light-blue));
   color: var(--near-black);
-  padding: 1rem;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 1rem;
   text-align: left;
   width: 400px;
-  height: auto;
+  height: 250px;
   cursor: pointer;
   transition: var(--smoother);
 }
 
 .flex-features-item:hover {
-  width: 450px;
+  width: 475px;
+  scale: 1.055;
   opacity: 80%;
 }
